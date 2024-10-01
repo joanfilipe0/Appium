@@ -5,6 +5,7 @@ Library    AppiumLibrary
 *** Variables ***
 
 ${APK_PATH}    ${EXECDIR}/yodapp-beta.apk
+
 ${START}    QAX
 
 *** Keywords ***

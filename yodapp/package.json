@@ -13,6 +13,6 @@
     "appium-doctor": "^1.16.2"
   },
   "devDependencies": {
-    "appium-uiautomator2-driver": "^3.7.9"
+    "appium-uiautomator2-driver": "^3.8.0"
   }
 }
