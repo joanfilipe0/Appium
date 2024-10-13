@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.6 on win32)" generated="2024-10-13T11:40:15.438107" rpa="false" schemaversion="5">
+<suite id="s1" name="Appium" source="E:\Documentos\Estudos\Appium">
+<suite id="s1-s1" name="Markx-Robot" source="E:\Documentos\Estudos\Appium\markx-robot">
+<suite id="s1-s1-s1" name="Tests" source="E:\Documentos\Estudos\Appium\markx-robot\tests">
+<suite id="s1-s1-s1-s1" name="Tasks" source="E:\Documentos\Estudos\Appium\markx-robot\tests\tasks.robot">
+<test id="s1-s1-s1-s1-t1" name="Deve remover uma tarefa Indesejada" line="20">
+<kw name="Start session" owner="base" type="SETUP">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-10-13T11:40:18.176997" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-10-13T11:40:18.175998" elapsed="0.004999">No application is open</status>
+</kw>
+<msg time="2024-10-13T11:40:18.181998" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-10-13T11:40:18.183998" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+    at getResponseForW3CError (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)</msg>
+<arg>http://localhost:4723</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=Android Emulator</arg>
+<arg>automationName=UIAutomator2</arg>
+<arg>app=${APK_PATH}</arg>
+<arg>udid=emulator-5554</arg>
+<arg>autoGrantPermission=true</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2024-10-13T11:40:15.704803" elapsed="2.481194">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+    at getResponseForW3CError (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)</status>
+</kw>
+<status status="FAIL" start="2024-10-13T11:40:15.703763" elapsed="2.483236">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+    at getResponseForW3CError (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)</status>
+</kw>
+<kw name="Finish session" owner="base" type="TEARDOWN">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-10-13T11:40:18.189998" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-10-13T11:40:18.188998" elapsed="0.001998">No application is open</status>
+</kw>
+<msg time="2024-10-13T11:40:18.191999" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-10-13T11:40:18.194998" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-10-13T11:40:18.188998" elapsed="0.006998">No application is open</status>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-10-13T11:40:18.196998" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-10-13T11:40:18.196998" elapsed="0.002000">No application is open</status>
+</kw>
+<msg time="2024-10-13T11:40:18.199996" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-10-13T11:40:18.201997" level="FAIL">No application is open</msg>
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="FAIL" start="2024-10-13T11:40:18.195996" elapsed="0.007001">No application is open</status>
+</kw>
+<status status="FAIL" start="2024-10-13T11:40:18.187996" elapsed="0.016003">Several failures occurred:
+
+1) No application is open
+
+2) No application is open</status>
+</kw>
+<tag>remove</tag>
+<status status="FAIL" start="2024-10-13T11:40:15.701765" elapsed="2.502234">Setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'E:\Documentos\Estudos\Appium/apps/markx.apk' does not exist or is not accessible
+    at getResponseForW3CError (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (E:\Documentos\Estudos\Appium\markx-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+Also teardown failed:
+Several failures occurred:
+
+1) No application is open
+
+2) No application is open</status>
+</test>
+<doc>Suítes de Testes de Cadastros de tarefas</doc>
+<status status="FAIL" start="2024-10-13T11:40:15.490702" elapsed="2.716295"/>
+</suite>
+<status status="FAIL" start="2024-10-13T11:40:15.488152" elapsed="2.721845"/>
+</suite>
+<status status="FAIL" start="2024-10-13T11:40:15.485151" elapsed="2.726368"/>
+</suite>
+<status status="FAIL" start="2024-10-13T11:40:15.461637" elapsed="2.751882"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">remove</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Appium">Appium</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Markx-Robot">Appium.Markx-Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tests">Appium.Markx-Robot.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="Tasks">Appium.Markx-Robot.Tests.Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-13T11:40:18.181998" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-10-13T11:40:18.191999" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-10-13T11:40:18.199996" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
